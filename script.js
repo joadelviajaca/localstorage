@@ -12,7 +12,7 @@ const users = JSON.parse(localStorage.getItem('users')) || [];
 // }
 console.log(users)
 form.addEventListener('submit', addUser);
-
+// Cambios en la rama 
 users.forEach(student => {
     addUserToList(student.name, student.email, student.address);
 });
